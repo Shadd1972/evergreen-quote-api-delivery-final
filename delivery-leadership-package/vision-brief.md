@@ -3,9 +3,9 @@
 ## Product
 **Name:** Evergreen Quote API (Phase 3 service delivery)
 **Delivery week:** 3
-**Delivery Lead:** Shadd Schutte
-**Engineering team (represented by):** https://github.com/Shadd1972/starter/ 
-**GitHub Project board:** https://github.com/users/Shadd1972/projects/5/views/1 
+**Delivery Lead:** _Shadd Schutte
+**Engineering team (represented by):** _link to your Evergreen Quote project repo_
+**GitHub Project board:** _link_
 
 ## Who is the customer?
 Two customers. First, a consumer shopping for auto, home, or life cover who gets an estimate on the Evergreen site and wants to come back to it later. Today that estimate disappears when they close the page, so their alternative is re-entering everything or calling an agent. Second, partner platforms (comparison sites, brokers) that want Evergreen quotes inside their own products. Today they have no way to request a quote except sending customers to our page.
