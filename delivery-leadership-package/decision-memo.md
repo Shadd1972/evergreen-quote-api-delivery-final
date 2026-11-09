@@ -1,29 +1,24 @@
-# Decision Memo: _short title here_
+## Decision Memo: Renters coverage this week
 
-> Copy to `delivery-leadership-package/decision-memo.md`. Target length: ~250 words. Write for a non-technical reader. Name the options you **rejected**, not just the one you picked.
-
-**Date:** 11/06/2026
-**Author:** Shadd Schutte
-**Decision area:** _e.g., Day 2 scope tradeoff_
+**Decision owner:** Shadd Schutte, Delivery Lead
+**Date:** Tuesday, Week 3
+**Requested by:** Priya Ramanathan, Project Sponsor (on behalf of a partner aggregator)
 
 ## Context
+A partner aggregator wants renters coverage quotable through the API by Thursday. Their integration lead described it as "one more dropdown option." This morning we tested exactly that kind of change: we asked the API for a "boat" quote and it refused with a 400 error, because the service only accepts auto, home, and life. It refuses "renters" the same way today.
 
-_What was the situation that forced a choice? 2–3 sentences._
-
-## Options considered
-
-1. **Option A: _name_.** _Pros / cons in plain English._
-2. **Option B: _name_.** _Pros / cons._
-3. **Option C: _name_.** _Pros / cons._ (Optional.)
+## Options
+1. **Yes, by Thursday.** Renters touches six places, not one: the list of allowed quote types, the rate table, the demo data, the automated tests, the partner (GraphQL) door, and the website dropdown. It also needs a renters rate, and rates are the sponsor's decision, so none has been set. To fit it in, the Thursday cluster demo would come out of this week.
+2. **No this week; schedule it for the next delivery round.** This week's goal stays as agreed, and renters is planned properly with an approved rate.
+3. **Accept renters without a rate.** This was rejected: we would be quoting customers a price nobody approved.
 
 ## Recommendation
-
-_Which option. One paragraph._
+Option 2: no renters this week. Schedule it as the first item in the next delivery round, starting once the sponsor sets a renters rate.
 
 ## Why
+- The delivery goal hasn't changed, and every item in it is still on track. Adding six changes two days before the merge puts the whole goal at risk for one partner request.
+- The cost is known, not guessed: the API's own response this morning showed what "one more option" actually involves.
+- There is no approved renters rate yet, and engineering should not invent one.
+- The partner gets a firm date instead of a "maybe," which is easier for them to plan around.
 
-_The single most important reason, named in customer or business terms, not technical ones._
-
-## What would change my mind
-
-_If X happened by Y date, I would revisit this._
+**What I need:** a renters rate from the sponsor by Friday, so renters can start on day one of the next round.
