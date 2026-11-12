@@ -24,3 +24,7 @@
 ## My call
 
 Go with conditions: my branch is green and doesn't contain the hotfix, but I won't merge onto a red `main`, because that would mix my changes with an unresolved customer incident. The one thing driving the call is the red run on `main`; the tests blocked the bad change, which is the safety net working. If `main` is green by Thursday's 10:00 check-in and engineering has confirmed what's deployed, this becomes a straight GO; if `main` is still red, it becomes a NO-GO and I'll escalate to the sponsor.
+
+## Update: Thursday 10:00
+Condition met: main is green and engineering confirmed what is deployed.
+Call is now GO for merging dev -> main today.
