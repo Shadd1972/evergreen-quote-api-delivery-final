@@ -9,8 +9,8 @@ Result: HIT. Every "done" item was checked on main on Thursday.
  
 ## Slide 2: What shipped
 - curl transcript on main: delivery-leadership-package/curl-transcript-main.txt
-- Merged PR: (https://github.com/Shadd1972/evergreen-quote-api-delivery-final/pull/22)
-- Green CI run: https://github.com/Shadd1972/evergreen-quote-api-delivery-final/pull/22/changes/76f85f47b276e19963865732fc8a89cd3987bf21
+- Merged PR: https://github.com/Shadd1972/evergreen-quote-api-delivery-final/pull/22
+- Green CI run: https://github.com/Shadd1972/evergreen-quote-api-delivery-final/actions/runs/43263730006
 - Cluster demo: 3 API pods + 1 database behind one Service; POST returned 2700
  
 ## Slide 3: Two key decisions and why
