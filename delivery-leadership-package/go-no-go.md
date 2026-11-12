@@ -5,7 +5,7 @@
 
 ## CI evidence
 
-- Latest run on `dev` (my working branch; the guide's `delivery/lead`): **green** · link: PASTE-URL-HERE
+- Latest run on `dev` (my working branch; the guide's `delivery/lead`): **green** · link: https://github.com/Shadd1972/evergreen-quote-api-delivery-final/pull/22
 - Latest run on `main`: **red** since the "validation hotfix" (Run #31). The test step rejects every quote because the minimum age was set to 110. My branch does not contain that change.
 - Workflow file: `.github/workflows/ci.yml`
 - What the workflow actually checked: check out the code → set up Node 22 → start a MongoDB 7 service container → install dependencies from the lock file (`npm ci`) → run the API test suite (`npm test`, 8 tests including today's Copilot-drafted test). It runs on every push, and on pull requests into `main`.
