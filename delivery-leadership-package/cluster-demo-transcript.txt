@@ -1,0 +1,6 @@
+NAME                                   READY   STATUS    RESTARTS   AGE
+evergreen-quote-api-57db7c5bbc-9zc8k   1/1     Running   0          3m46s
+evergreen-quote-api-57db7c5bbc-khprf   1/1     Running   0          4m
+evergreen-quote-api-57db7c5bbc-zj7tc   1/1     Running   0          3m53s
+mongo-77984b56bb-7fnkl                 1/1     Running   0          17m
+{"message":"Evergreen Quote API","status":"ok"}[{"_id":"9d0c946a-74c0-4623-9853-6fdb1d0acd97","type":"home","age":45,"coverageAmount":200000,"monthlyPremium":2700,"tags":[],"createdAt":"2026-11-12T15:50:46.818Z","updatedAt":"2026-11-12T15:50:46.818Z","__v":0}]
