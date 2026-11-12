@@ -3,7 +3,7 @@
 ## Product
 **Name:** Evergreen Quote API (Phase 3 service delivery)
 **Delivery week:** 3
-**Delivery Lead:** _Shadd Schutte
+**Delivery Lead:** Shadd Schutte
 **Engineering team (represented by):** https://github.com/Shadd1972/evergreen-quote-api-delivery-final
 **GitHub Project board:** https://github.com/users/Shadd1972/projects/5/views/1 
 
@@ -28,7 +28,4 @@ For customers: "I already got a quote, why do I have to start over?" Phases 1 an
 
 ## How will we know if it worked?
 This week: every "good" bullet above can be shown live on Thursday from main, with the merged PR and green CI run as evidence. Beyond this week: customers retrieve saved quotes instead of re-entering them, at least one partner can request a quote without our page, and premiums match the approved rates in every channel.
-_2–3 measures. Numeric if possible._
 
-- 
-- 
