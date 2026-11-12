@@ -4,7 +4,7 @@
 **Name:** Evergreen Quote API (Phase 3 service delivery)
 **Delivery week:** 3
 **Delivery Lead:** _Shadd Schutte
-**Engineering team (represented by):** _link to your Evergreen Quote project repo_
+**Engineering team (represented by):** https://github.com/Shadd1972/evergreen-quote-api-delivery-final
 **GitHub Project board:** https://github.com/users/Shadd1972/projects/5/views/1 
 
 ## Who is the customer?
