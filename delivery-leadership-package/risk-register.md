@@ -1,7 +1,7 @@
 # Risk Register
 
 | status | # | Risk | Owner | Likelihood (L/M/H) | Impact (L/M/H) | Mitigation | Trigger to escalate |
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|
 | Occured/Cleared | R1 | The API returns tidy 201s while a number inside is wrong, so the demo "works" while a premium is broken. Happened Tuesday: the AI-drafted POST handler priced $50,000 of auto cover at $0.35/month. | Shadd (Delivery Lead) | M | H | Run `npm test` after every assembly step, not just before merge; treat a passing demo as a claim, the test run as the evidence. | Tests still red at 16:00 → hold the push and name it at the sponsor check-in. |
 | Occured/Cleared | R2 | Bad data outlives bad code: the $0.35 quote created before the fix is still in the database after the code is corrected. | Shadd (Delivery Lead) | H | M | Log every quote created before a fix; reset demo data with `npm run seed` before Thursday's demo. | A wrong premium appears in any demo or `/api/quotes` output after Thursday's reset → stop the demo and reseed. |
 | Occured/Cleared | R3 | Customers see two different prices: the marketing site's script still uses the old rates while the API uses the sponsor's (auto 90, home 135, life 70). The site does not call the API yet. | Engineering team | H | H | Keep "connect the site to the API" out of this week's scope; record it on the roadmap; tell the sponsor in the status update. | Any request to publish the site live before the rates match → raise with the sponsor before the go/no-go. |
