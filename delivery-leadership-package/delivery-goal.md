@@ -2,7 +2,7 @@
 
 ## Goal
 
-> By Friday end of day, the Evergreen Quote API saves and prices quotes at the sponsor's approved rates through both the website (REST) and partner (GraphQL) doors, and is merged to main through a reviewed PR with green CI, proven in a container and on a local Kubernetes cluster.
+> By Thursday end of day, the Evergreen Quote API saves and prices quotes at the sponsor's approved rates through both the website (REST) and partner (GraphQL) doors, and is merged to main through a reviewed PR with green CI, proven in a container and on a local Kubernetes cluster.
 
 ## "Done" looks like
 
