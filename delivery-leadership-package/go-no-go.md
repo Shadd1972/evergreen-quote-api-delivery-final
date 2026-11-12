@@ -1,6 +1,6 @@
 # Go / No-Go: Merge Decision
 
-**Date / time:** Wednesday, November 10, 2026 · ~14:45 (after Inject #2)
+**Date / time:** Tuesday, November 10, 2026 · ~14:45 (after Inject #2)
 **Decision:** ☐ GO   ☐ NO-GO   ☒ GO WITH CONDITIONS
 
 ## CI evidence
