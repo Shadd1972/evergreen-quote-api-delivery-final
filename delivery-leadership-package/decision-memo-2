@@ -1,0 +1,24 @@
+---
+
+## Decision Memo 2: Thursday merge (conditional GO)
+
+**Decision owner:** Shadd Schutte, Delivery Lead
+**Date:** Wednesday, Week 3 (~14:45, after Inject #2)
+
+## Context
+An incident landed at 14:00: customers were refused quotes by an age minimum of 110, and CI on `main` had been red since a "validation hotfix." My branch was green and did not contain the hotfix.
+
+## Options
+1. **GO:** merge Thursday regardless, since my branch is clean.
+2. **NO-GO:** hold the merge until the incident is fully resolved.
+3. **GO with conditions:** merge Thursday only if `main` is green again and engineering confirms what is deployed.
+
+## Recommendation
+Option 3: GO with conditions, re-evaluated at Thursday's 10:00 check-in.
+
+## Why
+- My work was ready; holding it outright would have delayed a green delivery for a problem it didn't cause.
+- Merging onto a red `main` would have mixed my changes into an open customer incident.
+- The conditions were specific and owned by engineering, so everyone knew what would flip the call.
+
+**Outcome:** both conditions were met Thursday at 10:00; the call became GO and PR #22 merged with green CI.
